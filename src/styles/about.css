@@ -1,0 +1,110 @@
+.about-container {
+  position: relative; 
+  padding: 80px 20px; 
+  text-align: center; 
+  overflow: hidden; 
+  background: url('https://media.istockphoto.com/id/859591332/vector/blue-abstract-horizonal-lines-background-technology-with-polygon-geometric-vector.jpg?s=612x612&w=0&k=20&c=KUlujhS86Zu3SDTWjBRz9fqS0fxS8hGWvhcUt7j7GzQ=') no-repeat center center; 
+  background-size: cover; 
+}
+
+.about-title {
+  font-size: 2.5em; 
+  color: #002366; 
+  margin-bottom: 10px; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+.about-description {
+  font-size: 1.2em; 
+  color: #474747; 
+  max-width: 800px; 
+  margin: 0 auto; 
+  line-height: 1.6; 
+  padding: 20px; 
+  border-radius: 10px; 
+  background: rgba(255, 255, 255, 0.3); 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.section {
+  padding: 20px 20px; 
+  margin: 10px 0; 
+}
+
+.section h2 {
+  text-align: center; 
+  font-size: 2em; 
+  color: #0072ff; 
+  margin-bottom: 15px; 
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2.5em; 
+  }
+
+  .about-description {
+    font-size: 1.2em; 
+  }
+}
+
+.values-section .content,
+.vision-section .content,
+.mission-section .content {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+  
+}
+
+.vision-section .content,
+.mission-section .content {
+  border: 3px dotted #002366;
+  background-color: white;
+
+  
+}
+.values-section .image-container,
+.vision-section .image-container,
+.mission-section .image-container {
+  flex: 1; 
+  min-width: 250px; 
+  max-width: 400px; 
+}
+
+.values-section .image-container img,
+.vision-section .image-container img,
+.mission-section .image-container img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px; 
+}
+
+.values-section .text,
+.vision-section .text,
+.mission-section .text {
+  flex: 2; 
+  line-height: 1.6; 
+  text-align: center; 
+  padding: 0 20px; 
+}
+
+.values-section .text ul {
+  list-style: none; 
+  padding: 0; 
+}
+
+.values-section .text li {
+  background: #002366; 
+  color: white; 
+  padding: 15px; 
+  border-radius: 10px; 
+  margin: 10px 0; 
+  transition: background 0.3s; 
+}
+
+.values-section .text li:hover {
+  background: #0056b3; 
+}

@@ -1,0 +1,209 @@
+.career-page {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3fdff;
+}
+
+.career-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1200px; 
+  width: 100%;
+}
+.form-section, .info-section {
+  flex: 1; 
+  min-width: 400px; 
+}
+
+.info-section {
+  border-radius: 8px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.info-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.career-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+ 
+}
+
+.form-section {
+  background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 3px solid #002366;
+      box-shadow: 0 14px 10px rgba(2, 39, 123, 0.7);
+
+}
+
+.form-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-left label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-left input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Openings Section */
+.openings-section {
+  padding: 50px 20px;
+  background-color: #f5f9ff;
+  text-align: center;
+}
+
+
+
+.intro-text {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.openings-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.opening-card {
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: center;
+}
+
+.opening-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.opening-card h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.experience-level {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.bg-light-pink {
+  background-color: #fce4ec;
+}
+
+.bg-light-pink:hover {
+  background-color: #f8c8d8;
+}
+
+.bg-light-blue {
+  background-color: #d0f0fd;
+}
+
+.bg-light-blue:hover {
+  background-color: #a8e4fb;
+}
+
+.bg-light-yellow {
+  background-color: #fff3cd;
+}
+
+.bg-light-yellow:hover {
+  background-color: #ffeb9c;
+}
+
+.bg-light-orange {
+  background-color: #ffe4b5;
+}
+
+.bg-light-orange:hover {
+  background-color: #ffd184;
+}
+
+.bg-light-violet {
+  background-color: #e2d9f3;
+}
+
+.bg-light-violet:hover {
+  background-color: #cbbfe3;
+}
+
+.bg-light-green {
+  background-color: #d4edda;
+}
+
+.bg-light-green:hover {
+  background-color: #b8e0c2;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .openings-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .opening-card {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .career-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-section, .info-section {
+    width: 100%; 
+    min-width: unset; 
+  }
+
+  .info-section, .form-section {
+    padding: 20px; 
+  }
+}
